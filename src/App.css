@@ -7,3 +7,38 @@
     height: 100px;
     margin-top: 6%;
   }
+
+ 
+ 
+div.scroll {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: white;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    color: black;
+}
+::-webkit-scrollbar-thumb {
+  background: white !important;
+  height: 0px !important; 
+}
+
+.spaceInMobile{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+a.spaceInMobile.active{
+color: #dbac0f !important;
+font-weight: bold;
+font-size: 18px;
+}
+
+a.spaceInDesk{
+  color: #dbac0f !important;
+  }
+  a.spaceInDesk.active{
+    color: white !important;
+    }
