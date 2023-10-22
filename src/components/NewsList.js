@@ -1,10 +1,19 @@
 import React, { Component } from "react";
 import newsmonkey from "../components/assets/images/newsmonkey.png";
+import { Link } from "react-router-dom";
 
 export default class NewsList extends Component {
   render() {
-    let { title, description, urlToImage, url, author, publishedAt, name } =
-      this.props;
+    let {
+      title,
+      description,
+      urlToImage,
+      url,
+      author,
+      publishedAt,
+      name,
+      allElemenmt,
+    } = this.props;
     return (
       <>
         <div className="col-sm-4 py-2">
