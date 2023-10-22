@@ -34,7 +34,7 @@ export default class NewsList extends Component {
                 </p>
                 <span
                   className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info"
-                  style={{ zIndex: "1", marginLeft: "-30px" }}
+                  style={{ zIndex: "1", marginLeft: "-54px" }}
                 >
                   {name}
                 </span>

@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     const pathurl = window.location.pathname;
     return (
       <>
-        <nav className="navbar navbar-expand-lg bg-dark text-light">
+        <nav className="navbar navbar-expand-lg bg-dark text-light fixed-top">
           <div className="container-fluid">
             <img src={logo} className="img-responsive Navlogo" />
             <Link className="navbar-brand text-light" to="/">

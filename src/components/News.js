@@ -75,7 +75,7 @@ export default class News extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container gap-Top">
         <div className="d-flex justify-content-between py-4">
           <div>
             <button
